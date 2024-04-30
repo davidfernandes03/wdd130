@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --heading-font: "Libre Franklin", sans-serif;
+    --paragraphy-font: Verdana, Geneva, Tahoma, sans-serif;
+
+    --color01: #183976;
+    --color02: #62C7DC;
+    --color03: #F5DD22;
+    --color04: #F47A27;
+}
+
+body {
+    font-family: var(--paragraphy-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--color01);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--color03);
+}
+
+p {
+    padding: 15px;
+}
+
+nav {
+    background-color: var(--color03);
+    font-size: 1.2em;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--color01);
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav a:link, nav a:visited {
+    color: var(--color01);
+}
+
+nav a:hover {
+    color: var(--color02);
+    background-color: var(--color01);
+    transition: 0.3s;
+}
