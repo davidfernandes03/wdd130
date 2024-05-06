@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif, Times, serif;
 }
@@ -10,38 +16,51 @@ nav {
 nav > a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
     font-size: 1.2em;
 }
 
 h1 {
     color: steelblue;
+    font-size: 28px;
+    padding-left: 18px;
+    padding-top: 15px;
 }
 
 main > img {
+    float: right;
     width: 150px;
-    height: auto;
+    height: 250px;
     border: 1px solid steelblue;
     padding: 2px;
+    margin-top: 20px;
     box-shadow: 0px 0px 5px #80808050;
+}
+
+main {
+    max-width: 500px;
+    padding: 0px;
+}
+
+main > p {
+    height: 300px;
+    width: 320px;
+    padding: 20px;
 }
 
 p {
     padding: 0;
 }
 
-main {
-    max-width: 800px;
-}
-
 aside {
     width: 20em;
-    margin: 10px 0px 20px 5px;
-    border: 1px solid #00000033;
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+}
+
+aside > h2 {
+    position: absolute;
+    bottom: 55px;
+    left: 125px;
 }
 
 aside > img {
@@ -53,4 +72,13 @@ footer {
     margin-top: 10px;
     border-top: 1px solid #000000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #00000033;
+    background-color: #eee;
+    color: #333;
 }
