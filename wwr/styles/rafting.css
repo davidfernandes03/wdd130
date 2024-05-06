@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --heading-font: "Libre Franklin", sans-serif;
+    --paragraphy-font: Verdana, Geneva, Tahoma, sans-serif;
+
+    --color01: #183976;
+    --color02: #62C7DC;
+    --color03: #F5DD22;
+    --color04: #F47A27;
+}
+
+body {
+    margin: 0px 50px;
+    font-family: var(--paragraphy-font);
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--color04);
+}
+
+strong {
+    font-family: var(--heading-font);
+}
+
+header > nav > a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #183976;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;    
+}
+
+.hero h1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: var(--color03);
+    font-size: 30px;
+    text-align: center;
+    top: 20px;
+    width: 92vw;
+    padding: 10px;
+    opacity: 1;
+}
+
+.hero article {
+    position: absolute;
+    background-color: #1839769a;
+    bottom: 20%;
+    left: 17%;
+    width: 60vw;
+    padding: 15px;
+}
+
+.hero article img {
+    width: 250px;
+    float: right;
+}
+
+.hero article p {
+    color: white;
+    font-size: 16px;
+}
+
+section > img {
+    width: 800px;
+}
+
+footer > p {
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.social > a {
+    text-decoration: none;
+}
+
+.social > a > img {
+    width: 70px;
+    padding-right: 30px;
+}
