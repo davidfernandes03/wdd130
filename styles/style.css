@@ -13,7 +13,7 @@ nav {
     padding: 10px;
 }
 
-nav > a {
+nav a {
     color: white;
     display: block;
     padding: 10px;
@@ -27,7 +27,7 @@ h1 {
     padding-top: 15px;
 }
 
-main > img {
+main img {
     float: right;
     width: 150px;
     height: 250px;
@@ -42,7 +42,7 @@ main {
     padding: 0px;
 }
 
-main > p {
+main p {
     height: 300px;
     width: 320px;
     padding: 20px;
@@ -58,13 +58,13 @@ aside {
     position: relative;
 }
 
-aside > h2 {
+aside h2 {
     position: absolute;
     top: 23px;
     left: 108px;
 }
 
-aside > img {
+aside img {
     width: 200px;
     height: auto;
 }
