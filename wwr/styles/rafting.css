@@ -11,11 +11,10 @@
 }
 
 body {
-    margin: 0px 50px;
+    margin: auto;
     font-family: var(--paragraphy-font);
     font-size: 18px;
     max-width: 1200px;
-    margin: auto;
 }
 
 h1, h2, h3 {
