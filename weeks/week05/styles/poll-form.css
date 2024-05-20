@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin: auto;
+    width: 600px;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 1.8em;
+    color: #000080;    
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 8px;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 15px;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    padding: 1em;
+}
+
+legend {
+    padding: 5px;
+    color: #000080;
+    font-size: 1.2em;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 1.2em;
+}
+
+label[for="feedback"] {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+input, select, textarea {
+    padding: 0.5em;
+    font-size: 1.1em;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1em;
+    background-color: #000080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1em auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1em;
+    color: #777;
+    border-top: 1px solid black;
+    padding: 5px 0px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5em 0em;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
