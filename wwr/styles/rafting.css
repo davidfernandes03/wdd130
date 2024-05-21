@@ -160,7 +160,7 @@ section {
 }
 
 /* Main -> Section: Adventure */
-.adventure div {
+.adventure div, .contact-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -168,17 +168,17 @@ section {
     margin: auto;
 }
 
-.adventure figure {
+.adventure figure, .contact-images figure {
     padding: 5px;
     border: 1px solid black;
 }
 
-.adventure img {
+.adventure img, .contact-images img {
     width: 300px;
     height: 230px;    
 }
 
-.adventure figcaption {
+.adventure figcaption, .contact-images figcaption {
     background-color: var(--color01);
     color: var(--color03);
     text-align: center;
@@ -198,6 +198,10 @@ footer > p {
     justify-self: center;
 }
 
+footer .wireframe {
+    grid-column: 1;
+}
+
 .social {
     grid-column: 3;
     justify-self: end;
@@ -211,4 +215,85 @@ footer > p {
 .social > a > img {
     width: 50px;
     padding-right: 15px;
+}
+
+/* For Contact Us Page */
+.contact-title {
+    text-align: center;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 50px;
+}
+
+.info {
+    margin: 0;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.info h2, .map {
+    padding: 20px;
+}
+
+.color-info {
+    color: var(--color01);
+}
+
+.form {
+    margin: 50px 10px 50px 70px;
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: #eee;  
+}
+
+label {
+    padding-bottom: 10px;
+    
+}
+
+input, textarea {
+    padding: 0.6em;
+}
+
+.form .grid-div {
+    display: grid;
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+.form .no-grid {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 0.6em;
+    width: 400px;
+    background-color: var(--color03);
+    color: var(--color01);
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--color01);
+    color: var(--color02);
+    border: 2px solid #62c8dca4;
+    transition: 0.3s;
 }
