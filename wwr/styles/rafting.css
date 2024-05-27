@@ -90,7 +90,7 @@ header > nav > a:hover {
 
 .hero h1 {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.363);
     color: var(--color03);
     font-size: 30px;
     text-align: center;
@@ -294,7 +294,7 @@ button {
     width: 400px;
     background-color: var(--color03);
     color: var(--color01);
-    border: 2px solid rgba(0, 0, 0, 0.164);
+    border: 2px solid rgba(0, 0, 0, 0.171);
     border-radius: 5px;
     font-size: 1.2em;
     font-weight: bold;
@@ -304,7 +304,7 @@ button {
 button:hover {
     background-color: var(--color01);
     color: var(--color02);
-    border: 2px solid #62c8dca4;
+    border: 2px solid black;
     transition: 0.3s;
 }
 
@@ -403,4 +403,86 @@ th, td {
     color: var(--color02);
     border: 2px solid black;
     transition: .3s;
+}
+
+/* For Home Page */
+
+.home-info h1 {
+    text-align: center;
+    background-color: #F5DD22;
+    padding: 5px 0px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.185);
+}
+
+.home-info img {
+    width: 450px;
+    height: 290px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px 5px 0px 5px;
+}
+
+.grid-item h2 {
+    background-color: var(--color01);
+    color: var(--color03);
+    margin: 0px 0px 5px 0px;
+    padding: 5px 0px;
+    width: 450px;
+}
+
+.grid-paragraphy {
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-paragraphy h3, .grid-paragraphy strong {
+    text-align: center;
+    margin-top: 0;
+    color: #1044b4;
+}
+
+.grid-paragraphy p, .grid-paragraphy li {
+    color: var(--color01);
+    font-size: 19px;
+    margin: 0px;
+    width: 450px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.newsletter-signup h2 {
+    text-align: center;
+    border-top: 1px solid var(--color01);
+    padding-top: 20px;
+}
+
+.home-form {
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: #eee;
+    width: 600px;
+    margin: auto;
+}
+
+.home-form button {
+    margin-top: 10px;
+}
+
+.home-form .home-grid {
+    display: grid;
+    font-size: 1em;
+    padding: 10px;
 }
